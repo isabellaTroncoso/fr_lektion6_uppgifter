@@ -1,0 +1,9 @@
+<p>Helloooo</p>
+
+<!--Button test from about.component.ts-->
+<button (click)="addToCount()">Count + 1</button>
+<p>Value of count is: {{ count }}</p>
+
+<app-custom-button buttonMessage="Click me" (clicked)="addToCount()"></app-custom-button>
+<app-custom-button buttonMessage="Click me 2" (clicked)="addToCount()"></app-custom-button>
+<app-custom-button buttonMessage="Click me 3" (clicked)="addToCount()"></app-custom-button>
