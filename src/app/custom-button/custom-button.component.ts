@@ -10,7 +10,7 @@ export class CustomButtonComponent {
 @Input () buttonMessage!: string;
 @Output () clicked = new EventEmitter<void>();
 
-// declare handle click
+// declare handle click event - Abstract
 handledClick() {
   this.clicked.emit();
 }
